@@ -34,8 +34,17 @@ header .container {
 
 header .logo {
   display: inline-block;
+  font-size: 25px;
 }
   
+header .logo .green-dot {
+  background-color: rgb(0, 107, 47);
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 4px;
+  border-radius: 5px;
+}
+
 header nav {
   display: inline-block;
 }
