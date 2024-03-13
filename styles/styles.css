@@ -38,10 +38,11 @@ header .logo {
 }
   
 header .logo .green-dot {
-  background-color: rgb(0, 107, 47);
+  background-color: rgb(0, 99, 43);
+  width: 10px;
+  height: 10px;
   display: inline-block;
   vertical-align: middle;
-  margin: 0 4px;
   border-radius: 5px;
 }
 
