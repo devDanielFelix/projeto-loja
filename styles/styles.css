@@ -413,6 +413,7 @@ footer .copyright-text {
  
   .container {
     max-width: 92%;
+    background-color: blue;
   }
 }
 
