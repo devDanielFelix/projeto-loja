@@ -405,6 +405,14 @@ footer .copyright-text {
     max-width: 90%;
   }
 
+  header {
+    height: 70px;
+  }
+
+  body {
+    padding-top: 70px;
+  }
+
 }
 
 /*Design for tablet */
