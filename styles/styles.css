@@ -56,6 +56,17 @@ header nav ul li {
   display: inline-block;
 }
 
+header nav ul li.menu-icon {
+  display: none;
+}
+
+header nav ul li.menu-icon img {
+  vertical-align: middle;
+  width: 20px;
+  height: auto;
+}
+
+
 header nav ul li a {
   color: #3e3e3e;
   font-size: 15px;
@@ -421,9 +432,30 @@ footer .copyright-text {
   .container {
     max-width: 92%;
   }
+
+  header .logo {
+    font-size: 24px;
+  }
+
+  header nav ul li {
+    display: none;
+  }
+  
+  header nav ul li.menu-icon {
+    display: inline-block;
+  }
+  
 }
 
 /*Design for mobile */
 @media screen and (max-width: 576px) {
-   
+
+  header .logo {
+    font-size: 18px;
+  }
+
+  header .logo .green-dot {
+    width: 7px;
+    height: 7px;
+  }
 }
