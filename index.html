@@ -16,9 +16,9 @@
     <header>
         <div class="container">
             <section class="logo">
-                <strong>Your</strong>
+                <strong>Green</strong>
                 <span class="green-dot"></span>
-                <span>Logo</span>
+                <span>Dot</span>
             </section>
             <nav>
                 <ul>
@@ -32,11 +32,19 @@
     </header>
 
     <section class="hero">
-        <img src="img/Hero_image.jpg" alt="hero image - smart watch">
+        
+        <picture>
+            <source srcset="img/Hero_Mobile.jpg" media="(max-width: 575px)" />
+            <source srcset="img/Hero_tablet.jpg" media="(max-width: 960px)" />
+            <source srcset="img/Hero_Desktop.jpg" media="(max-width: 1440px)" />
+
+            <img src="img/Hero_Large_Desktop.jpg" alt="hero image - smart watch" />
+        </picture>
+          
         <div class="hero-content">
             <div class="container">
                 <h1>Explore our new smart watch series</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent cursus commodo diam, a lacinia sapien interdum vel.</p>
+                <p>Discover the ultimate Smart Watch! Health tracking, instant notifications, and sleek design. Get yours now!</p>
                 <button>See all watches</button>
             </div>
         </div>
